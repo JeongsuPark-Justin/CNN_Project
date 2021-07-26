@@ -30,3 +30,22 @@ from tensorflow.keras import models, layers, optimizers
 from tensorflow.keras.callbacks import EarlyStopping
 import matplotlib.pyplot as plt
 ```
+## Model
+- VGG16
+- Epoch = 150
+- Target size = 400,400
+- Batch size = 30
+- Learning Rate = default(1e-5)
+- Number of Hidden Neurons = (256,32)
+- Optimizer = RMSprop
+
+![image](https://user-images.githubusercontent.com/87413486/126945901-db9fbcdb-5e22-4a45-812a-6bd6d9b301c8.png)
+
+## System Conditions
+- Anaconda 4.6.14
+- Python 3.7.10
+- Tensorflow 1.15
+
+- CentOS 7.9.2009
+- Intel Xeon CPU E5-2650
+- NVIDIA GeForce GTX 1080Ti
