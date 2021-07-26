@@ -22,14 +22,7 @@ A smaller CPU-only package is also available:
 ```python
 $ pip install tensorflow-cpu
 ```
-## Code Style
-Requires some of following conditions
-```python
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras import models, layers, optimizers
-from tensorflow.keras.callbacks import EarlyStopping
-import matplotlib.pyplot as plt
-```
+
 ## Model
 - VGG16
 - Epoch = 150
